@@ -1,0 +1,69 @@
+[debug] [2020-12-11T02:24:04.266Z] ----------------------------------------------------------------------
+[debug] [2020-12-11T02:24:04.272Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\GUNAPAL P\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-12-11T02:24:04.273Z] CLI Version:   8.18.1
+[debug] [2020-12-11T02:24:04.273Z] Platform:      win32
+[debug] [2020-12-11T02:24:04.273Z] Node Version:  v12.19.0
+[debug] [2020-12-11T02:24:04.276Z] Time:          Fri Dec 11 2020 07:54:04 GMT+0530 (India Standard Time)
+[debug] [2020-12-11T02:24:04.276Z] ----------------------------------------------------------------------
+[debug] [2020-12-11T02:24:04.277Z] 
+[debug] [2020-12-11T02:24:04.352Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-11T02:24:04.354Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\GUNAPAL P\Desktop\App\solecare
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2020-12-11T06:50:56.441Z] ----------------------------------------------------------------------
+[debug] [2020-12-11T06:50:56.443Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\GUNAPAL P\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-12-11T06:50:56.443Z] CLI Version:   8.18.1
+[debug] [2020-12-11T06:50:56.443Z] Platform:      win32
+[debug] [2020-12-11T06:50:56.443Z] Node Version:  v12.19.0
+[debug] [2020-12-11T06:50:56.445Z] Time:          Fri Dec 11 2020 12:20:56 GMT+0530 (India Standard Time)
+[debug] [2020-12-11T06:50:56.445Z] ----------------------------------------------------------------------
+[debug] [2020-12-11T06:50:56.445Z] 
+[debug] [2020-12-11T06:50:56.454Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-11T06:50:56.455Z] > authorizing via signed-in user
+[debug] [2020-12-11T06:50:56.455Z] [iam] checking project helath-care for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-12-11T06:50:56.459Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-12-11T06:50:56.459Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-12-11T06:51:12.082Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-12-11T06:51:12.089Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-12-11T06:51:12.091Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-12-11T06:51:27.240Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-12-11T06:51:27.732Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\GUNAPAL P\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\GUNAPAL P\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\github.js:20:16)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1035:10)
+    at Module.load (internal/modules/cjs/loader.js:879:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Module.require (internal/modules/cjs/loader.js:903:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\Users\GUNAPAL P\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:5:24)
+    at Module._compile (internal/modules/cjs/loader.js:1015:30)
+[error] 
+[error] Error: Failed to get Firebase project helath-care. Please make sure the project exists and your account has permission to access it.

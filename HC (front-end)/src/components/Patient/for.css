@@ -1,0 +1,32 @@
+.cb{
+    margin-top: 100px;
+    margin-left: 350px;
+    background-color: lightblue;
+    height: 370px;
+    width: 550px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.head{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.gap{
+    padding-right: 15px;
+}
+.fm{
+/* background-color: cornsilk;
+    border-style: groove;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 400px;
+     */
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 45%;
+
+
+    }

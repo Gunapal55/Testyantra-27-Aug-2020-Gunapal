@@ -1,0 +1,43 @@
+form{
+
+    margin-top: 1cm;
+    margin-bottom: 4cm;
+    margin-left: 11cm;
+    /* margin: auto; */
+    width: 50%;
+    padding: 15px;
+}
+
+align{
+    margin-left: 11cm;
+    text-align: left;
+}
+*{
+    margin-left: 24px;
+    align-items: center;
+   
+}
+
+h{
+    display:inline-block;
+    /* display: block; */
+}
+
+sbtn{
+    align-self: left;
+}
+
+cabtn{
+    align-self: right;
+}
+
+
+.border{
+    border: 1px solid rgba(147, 184, 189,0.8);
+	box-shadow:	
+		0pt 2px 5px rgba(68, 71, 71, 0.7),	
+		0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 10px;
+}
